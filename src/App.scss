@@ -1,0 +1,19 @@
+.joinGame {
+  background: url("https://i.pinimg.com/originals/f0/67/a9/f067a9fc42a802c0ccc0926fe9b69a80.jpg");
+  height: 100vh;
+  color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &-content {
+    margin: 0 auto;
+    background-color: rgba(177, 131, 17, 0.856);
+    padding: 3rem;
+    border-radius: 16px;
+    box-shadow: 2px 3px 11px 3px rgba(161, 150, 150, 0.88);
+    -webkit-box-shadow: 2px 3px 11px 3px rgba(161, 150, 150, 0.88);
+    -moz-box-shadow: 2px 3px 11px 3px rgba(161, 150, 150, 0.88);
+  }
+}
